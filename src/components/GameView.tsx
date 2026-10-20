@@ -95,11 +95,8 @@ function TitleScreen({ state }: { state: GameState }) {
   ]
   return (
     <g>
-      <Text x={C.WIDTH / 2} y={70} anchor="middle">
-        PLAY
-      </Text>
       <Text x={C.WIDTH / 2} y={90} anchor="middle" fill={GREEN}>
-        SPACE INVADERS
+        PROTECT THE GALAXY
       </Text>
       <Text x={C.WIDTH / 2} y={118} anchor="middle">
         *SCORE ADVANCE TABLE*
